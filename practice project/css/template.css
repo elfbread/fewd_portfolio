@@ -14,10 +14,11 @@ body {
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  /* display: block; */
+  margin-top: 3rem;
 }
 #community {
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-color: white;
   padding: 15px 0 0 20px;
 }
@@ -34,9 +35,15 @@ body {
   color: hsl(218, 22%, 67%);
   padding: 0px 20px 20px 0px;
 }
-
+#bottom {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
 #subscription {
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
   background-color: hsl(179, 62%, 43%);
   width: 50%;
   padding: 15px 0 15px 15px;
@@ -52,25 +59,24 @@ body {
   font-weight: bold;
 }
 
-#per-month {
-  color: white;
-}
-
 #full-access {
   color: white;
 }
 
 #sign-up {
-  width: 50%;
+  display: flex;
   color: white;
   background-color: hsl(71, 73%, 54%);
   font-weight: bold;
-  text-align: center;
-  padding: 15px 0 20px 15px;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 15px 100px 15px 100px;
+  max-width: 100%;
+  align-self: center;
 }
 
 #why-us {
-  border-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: hsl(179, 47%, 49%);
   width: 50%;
   padding: 15px 0 15px 15px;
