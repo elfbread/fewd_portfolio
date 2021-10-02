@@ -1,0 +1,90 @@
+head {
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400, 700;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.main {
+  width: 50%;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: block; */
+}
+#community {
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 0 0 20px;
+}
+#join-community {
+  color: hsl(179, 62%, 43%);
+  font-weight: bold;
+}
+
+#money-back {
+  color: hsl(71, 73%, 54%);
+}
+
+#benefits {
+  color: hsl(218, 22%, 67%);
+  padding: 0px 20px 20px 0px;
+}
+
+#subscription {
+  border-radius: 10px;
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  padding: 15px 0 15px 15px;
+}
+
+#monthly {
+  color: white;
+  font-weight: bold;
+}
+
+#cost {
+  color: white;
+  font-weight: bold;
+}
+
+#per-month {
+  color: white;
+}
+
+#full-access {
+  color: white;
+}
+
+#sign-up {
+  width: 50%;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 0 20px 15px;
+}
+
+#why-us {
+  border-radius: 10px;
+  background-color: hsl(179, 47%, 49%);
+  width: 50%;
+  padding: 15px 0 15px 15px;
+}
+
+#why-us-sub {
+  color: white;
+}
+
+#list {
+  list-style-type: none;
+  color: white;
+}
+.attribution {
+  font-size: 12px;
+  text-align-last: center;
+}
