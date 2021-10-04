@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1440px){
+
+
+
+  
+/* main content rules */
+main img {
+    width: 42%;
+    height: auto;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} /* end of media query */
