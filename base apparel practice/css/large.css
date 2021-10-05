@@ -7,7 +7,7 @@ html, body {
   
 /* main content rules */
 main img {
-    width: auto;
+    width: 35%;
     height: auto;
     margin-left: 20rem;
     float: right;
@@ -17,8 +17,8 @@ main img {
 main h3{
     color: hsl(0, 36%, 70%);
     font-weight: lighter;
-    padding-right: 10rem;
-    margin-right: 15rem;
+    padding-right: 5rem;
+    margin-right: 10rem;
 }
 
 
