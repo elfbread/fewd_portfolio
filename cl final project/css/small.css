@@ -22,12 +22,42 @@ body {
 /* header rules */
 
     header img {
-        float: left;
-        padding: 10px 0 10px 0;
-        width: 250px;
-        height: auto;
+        display: flex;
+        align-self: center;
+        margin: auto;
+
     }
 
+/* nav */
+
+nav {
+    background-color: #437880;
+    overflow: hidden;
+  }
+  
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+nav a.active {
+    background-color: #9db3b1;
+    align-content: center;
+  }
+
+
+ 
 
 /* main content rules */
 body {
@@ -40,7 +70,7 @@ main img {
 }
 
 .coming-soon{
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 main h1 {
     color: hsl(0, 36%, 70%);
@@ -56,16 +86,19 @@ main h1 {
 main h2{
     text-transform: uppercase;
     font-size: 5rem;
-    letter-spacing: 2rem;
+    letter-spacing: 1rem;
     text-align: left;
     font-weight: normal;
     
 }
 
 main h3 {
-        color: hsl(0, 36%, 70%);
-        font-weight: lighter;
+    font-weight: normal;
 } 
+
+main h4 {
+        font-weight: normal;
+}
 
 input{
     width: 45%;
@@ -78,7 +111,7 @@ input{
 ::placeholder {
     color: hsl(0, 53%, 83%);
     opacity: 0.75;
-    padding: 15px 0 10px 10px;
+    padding: 10px 0 10px 10px;
 
 }
 /* footer rules */
