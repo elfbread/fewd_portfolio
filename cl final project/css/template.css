@@ -151,6 +151,7 @@ footer .glyphicon {
 
 .navbar li a, .navbar .navbar-brand {
     color: #BFCDCB !important;
+    padding-right:25px;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
