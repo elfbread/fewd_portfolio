@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/template.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" sizes="32x32" href="images\favicon2.png">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="script/app.js" rel="stylesheet" type="text/css"></script>
@@ -33,7 +33,7 @@
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#services">SERVICES</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#pricing">OUR TEAM</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
@@ -56,17 +56,22 @@
     </div>
 
     <!-- Container (About Section) -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="about">
         <div class="row">
             <div class="col-sm-8">
                 <h2>About Jordane Designs</h2>
-                <h4>Jordane Designs believes that every person deserves a well-designed space that allows them to balance productivity, relaxation, and joy. Founded in 2020, Jordane Designs works with clients across the country to create spaces that work for them. Extraordinary style doesn't require an extraordinary budget.</h4>
-                <p>Take a look at some of our designs below, and be sure to read the reviews provided by our former clients. We look forward to working with you and designing the space of your dreams!</p>
-                <button class="btn btn-default btn-lg">Get in Touch</button>
+                <h4>Jordane Designs believes that every person deserves a well-designed space that allows them to
+                    balance productivity, relaxation, and joy. Founded in 2020, Jordane Designs works with clients
+                    across the country to create spaces that work for them. Extraordinary style doesn't require an
+                    extraordinary budget.</h4>
+                <p>Take a look at some of our designs below, and be sure to read the reviews provided by our former
+                    clients. We look forward to working with you and designing the space of your dreams!</p>
+                <button class="btn btn-default btn-lg"><a href="mailto:jordanedesigns@yoursite.com">Get in
+                        Touch</a></button>
             </div>
             <div class="col-sm-4">
                 <img src="images/jordan.jpg" alt="Jordan's Professional Headshot" width=250px height=auto>
-                <p>Jordan Murphy, Owner and Creative Director</p>
+                <p>Jordan Murphy, Owner</p>
             </div>
         </div>
     </div>
@@ -85,7 +90,7 @@
     </div>
 
     <!-- Container (Services Section) -->
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center" id="services">
         <h2>SERVICES</h2>
         <h4>What we offer</h4>
         <br>
@@ -126,7 +131,7 @@
         </div>
     </div>
 
-    <div class="container-fluid text-center bg-grey">
+    <div class="container-fluid text-center bg-grey" id="portfolio">
         <h2>Portfolio</h2>
         <h4>Lorem ipsum...</h4>
         <div class="row text-center">
@@ -166,15 +171,17 @@
         <!-- Wrapper for slides-->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <h4>"This company is the best. I am so happy with the result!"<br><span
-                        style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+                <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua."<br><span style="font-style:normal;">Gus Madsen, Lexington, KY</span></h4>
             </div>
             <div class="item">
-                <h4>"One word... WOW!!<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+                <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. A iaculis at erat pellentesque adipiscing
+                    commodo elit at. <br><span style="font-style:normal;">Claire Holladay, Frankfort, KY</span></h4>
             </div>
             <div class="item">
-                <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing,
-                        Actor, FriendsAlot</span></h4>
+                <h4>" Amet consectetur adipiscing elit pellentesque habitant
+                    morbi. Habitasse platea dictumst vestibulum rhoncus est. A iaculis adipiscing
+                    commodo elit at."<br><span style="font-style:normal;">John Egbo, Cincinnati, OH</span></h4>
             </div>
         </div>
         <!-- Left and right controls-->
@@ -188,28 +195,25 @@
         </a>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="pricing">
         <div class="text-center">
-            <h2>Meet the Team</h2>
-            <h4>Learn more about our team members here at Jordane Designs.</h4>
+            <h2>Pricing</h2>
+            <h4>Learn more about our pricing options here at Jordane Designs.</h4>
         </div>
         <div class="row">
             <div class="col-sm-4">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <h1>Augustus Gacho</h1>
+                        <h1>General Consult</h1>
 
                     </div>
                     <div class="panel-body">
-                        <p><strong>20</strong> Lorem</p>
-                        <p><strong>15</strong> Ipsum</p>
-                        <p><strong>5</strong> Dolor</p>
-                        <p><strong>2</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+                        <p><strong>Discuss</strong> your design goals</p>
+                        <p><strong>Plan</strong> your space</p>
                     </div>
                     <div class="panel-footer">
-                        <h3>$19</h3>
-                        <h4>per month</h4>
+                        <h3>$30</h3>
+                        <h4>per hour</h4>
                         <button class="btn btn-lg">Sign Up</button>
                     </div>
                 </div>
@@ -217,18 +221,16 @@
             <div class="col-sm-4">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <h1>Claire Golden</h1>
+                        <h1>Room Re-Design</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>50</strong> Lorem</p>
-                        <p><strong>25</strong> Ipsum</p>
-                        <p><strong>10</strong> Dolor</p>
-                        <p><strong>5</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+                        <p><strong>General Consult</strong> start with the basics</p>
+                        <p><strong>Coordination</strong> of tasks</p>
                     </div>
                     <div class="panel-footer">
-                        <h3>$29</h3>
-                        <h4>per month</h4>
+                        <h3>$50</h3>
+                        <h4>per hour</h4>
+                        <p>* material costs not included</p>
                         <button class="btn btn-lg">Sign Up</button>
                     </div>
                 </div>
@@ -236,18 +238,15 @@
             <div class="col-sm-4">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <h1>Elena Jones</h1>
+                        <h1>Full Home Refresh</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>100</strong> Lorem</p>
-                        <p><strong>50</strong> Ipsum</p>
-                        <p><strong>25</strong> Dolor</p>
-                        <p><strong>10</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+                        <p><strong>Luxury treatment</strong> above and beyond other services</p>
+                        <p><strong>Hands off</strong> while we handle it all</p>
                     </div>
                     <div class="panel-footer">
-                        <h3>$49</h3>
-                        <h4>per month</h4>
+                        <h3>Price varies</h3>
+                        <h4>contact us for more information</h4>
                         <button class="btn btn-lg">Sign Up</button>
                     </div>
                 </div>
@@ -255,7 +254,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-grey">
+    <div class="container-fluid bg-grey" id="contact">
         <h2 class="text-center">CONTACT</h2>
         <div class="row">
             <div class="col-sm-5">
@@ -286,7 +285,7 @@
         </div>
     </div>
     <!-- Image of Location/Map-->
-<!--     <img src="map.jpg" style="width:100%"> -->
+    <!--     <img src="map.jpg" style="width:100%"> -->
 </body>
 
 <footer class="container-fluid text-center">
@@ -294,6 +293,7 @@
         <span class="glyphicon glyphicon-chevron-up"></span>
     </a><br>
     <img src="images/logo-large.png" alt="Jordane Designs logo">
+    <!--- ADD SOCIAL MEDIA and Copyright-->
 </footer>
 <script>
     $(document).ready(function () {
@@ -317,7 +317,8 @@
                     window.location.hash = hash;
                 });
             } // End if
-        })});
+        })
+    });
 </script>
 
 </html>

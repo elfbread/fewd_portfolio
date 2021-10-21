@@ -23,6 +23,11 @@ body {
     border: #BFCDCB;
     color: #2C3842;
 }
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 .container-fluid {
     padding: 60px 50px;
 }
@@ -170,6 +175,7 @@ h2 {
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 h4 {
