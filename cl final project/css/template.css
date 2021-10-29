@@ -185,3 +185,13 @@ h4 {
     font-weight: 400;
     margin-bottom: 30px;
 }
+
+#about .col-sm-4 {
+    align-content: center;
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+}
+
