@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="script/app.js" rel="stylesheet" type="text/css"></script>
+    <script src="script/app.js"></script>
 
 </head>
 
@@ -48,7 +48,7 @@
             <div class="input-group">
                 <input type="email" class="form-control" size="50" placeholder="Email Address" required>
                 <div class="input-group-btn">
-                    <button type="button" class="btn btn-danger">Subscribe</button>
+                    <button type="button" class="btn btn-danger" onclick="(validateEmail)">Subscribe</button>
                 </div>
             </div>
         </form>
@@ -237,36 +237,13 @@
     </a><br>
     <img src="images/logo-large.png" alt="Jordane Designs logo">
     <div id="sm">
-        <p><img src="images/fb.png">   <img src="images/insta.png">  <img src="images/pin.png">
+        <p><img src="images/fb.png"> <img src="images/insta.png"> <img src="images/pin.png">
     </div>
 
-</div>
-    <p style="text-align: center"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> Jordane Designs <br>All Rights Reserved</p>
+    </div>
+    <p style="text-align: center"> Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script> Jordane Designs <br>All Rights Reserved
+    </p>
 </footer>
-<script>
-    $(document).ready(function () {
-        // Add smooth scrolling to all links in navbar + footer link
-        $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-                // Prevent default anchor click behavior
-                event.preventDefault();
-
-                // Store hash
-                var hash = this.hash;
-
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 900, function () {
-
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            } // End if
-        })
-    });
-</script>
 
 </html>
