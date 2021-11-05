@@ -158,7 +158,10 @@
                     <div class="panel-footer">
                         <h3>$30</h3>
                         <h4>per hour</h4>
-                        <button class="btn btn-lg">Sign Up</button>
+                <button class="btn btn-lg"><a href="mailto:jordanedesigns@yoursite.com?subject=General Consult Information">More info</a></button>
+                        <button type="button" class="btn btn-lg"
+                        onclick="document.getElementbyID('calcgen').style.display='block'"> Calculate cost</button>
+                        <p id="calcgen" style="display:none"> test!! </p>
                     </div>
                 </div>
             </div>
@@ -174,7 +177,9 @@
                     <div class="panel-footer">
                         <h3>$50</h3>
                         <h4>per hour</h4>
-                        <button class="btn btn-lg">Sign Up</button>
+                        <button class="btn btn-lg"><a href="mailto:jordanedesigns@yoursite.com?subject=Room Re-Design Information">More info</a></button> <button type="button"
+                            onclick="document.getElementbyID('calc').style.display='block'" class="btn btn-lg"> Calculate cost</button>
+                        <p id="calc-redesign" style="display:none">
                     </div>
                 </div>
             </div>
@@ -190,10 +195,9 @@
                     <div class="panel-footer">
                         <h3>Price varies</h3>
                         <h4>contact us for more information</h4>
-                        <button class="btn btn-lg">Sign Up</button>
-
-                        <!-- add hidden javascript to show cost calculator -->
+                        <button class="btn btn-lg"><a href="mailto:jordanedesigns@yoursite.com?subject=Full Home Refresh Information">More info</a></button>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -223,7 +227,8 @@
                     rows="5"></textarea><br>
                 <div class="row">
                     <div class="col-sm-12 form-group">
-                        <button onclick="sendContact();" class="btn btn-default pull-right" type="submit" id="submit">Send</button>
+                        <button onclick="sendContact();" class="btn btn-default pull-right" type="submit"
+                            id="submit">Send</button>
                     </div>
                 </div>
             </div>
@@ -237,7 +242,11 @@
     </a><br>
     <img src="images/logo-large.png" alt="Jordane Designs logo">
     <div id="sm">
-        <p><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="images/fb.png" alt="facebook logo"></a> <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="images/insta.png" alt="instagram logo"></a> <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer"><img src="images/pin.png" alt="pinterest logo"></a>
+        <p><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="images/fb.png"
+                    alt="facebook logo"></a> <a href="https://www.instagram.com" target="_blank"
+                rel="noopener noreferrer"><img src="images/insta.png" alt="instagram logo"></a> <a
+                href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer"><img src="images/pin.png"
+                    alt="pinterest logo"></a>
     </div>
 
     </div>
@@ -247,3 +256,8 @@
 </footer>
 
 </html>
+
+<!-- NOTES: Fix hide/unhide javascript on pricing section
+            Build cost calculator
+            Subscribe email verification
+            Contact sheet at bottom-->

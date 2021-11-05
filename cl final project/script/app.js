@@ -22,4 +22,3 @@ $(document).ready(function () {
     })
 });
 
-// document.getElementById("demo").style.display = "block";
