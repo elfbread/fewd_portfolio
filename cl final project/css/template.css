@@ -59,6 +59,10 @@ a, a:visited, a:hover, a:active {
         filter: grayscale(100%)
     }
 
+    #contact {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -68,6 +72,9 @@ a, a:visited, a:hover, a:active {
     .col-sm-4 {
         text-align: center;
         margin: 25px 0;
+    }
+    #contact {
+        text-align: center;
     }
 }
     
