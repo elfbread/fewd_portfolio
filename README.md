@@ -4,7 +4,7 @@ This project was created to fufill the final project requirements for Front End 
 
 Project requirements:
 
-	2 media queries
+	2 media queries  (alignment change, images become gray scale, navigation menu compacts to hamburger)
 	More than 5 github commits
 	readme
 	css feature: hamburger
