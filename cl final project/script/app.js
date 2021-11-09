@@ -22,19 +22,15 @@ $(document).ready(function () {
     })
 });
 
-(function () {
-    'use strict'
-    const forms = document.querySelectorAll('.requires-validation')
-    Array.from(forms)
-        .forEach(function (form) {
-            form.addEventListener('submit', function (event) {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+// Activate Carousel
+$("#myCarousel").carousel({interval: 50});
 
-                form.classList.add('was-validated')
-            }, false)
-            })
-        })
-}) ()
+// Enable Carousel Indicators
+$(".item").click(function(){
+  $("#myCarousel").carousel(1);
+});
+
+// Enable Carousel Controls
+$(".left").click(function(){
+  $("#myCarousel").carousel("prev");
+});
