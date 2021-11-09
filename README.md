@@ -1,9 +1,21 @@
 # fewd_portfolio
 
-Project requirements met:
-  2 media queries
-  > 5 github commits
-  readme
-  css feature: hamburger
-  js feature: contact us form (pending), 
-  additional features: bootstrap for layout, js calculator (pending), carousel, smooth scroll, autoupdate create date
+This project was created to fufill the final project requirements for Front End Web Development with Code Louisville. The website is a business page for my friend's fictional interior design business. The webpage utilizes Bootstrap for layout and includes multiple JavaScript elements.
+
+Project requirements:
+
+	2 media queries
+	More than 5 github commits
+	readme
+	css feature: hamburger
+	js feature: contact us form (pending)
+
+	
+  additional features:
+	
+	bootstrap for layout/functionality (email verification, hide/unhide cost calculator)
+	js calculator (pending)
+	js carousel
+	js smooth scroll 
+	js auto-update copyright date in footer
+	
