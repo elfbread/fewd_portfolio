@@ -8,13 +8,13 @@ Project requirements:
 	More than 5 github commits
 	readme
 	css feature: hamburger
-	js feature: contact us form (pending)
+	js feature: contact us form (pending, works but does not recognize accurate entry)
 
 	
   additional features:
 	
-	bootstrap for layout/functionality (email verification, hide/unhide cost calculator)
-	js calculator (pending)
+	bootstrap for layout/functionality (email verification)
+	js calculator (pending, formatting finished, no js)
 	js carousel
 	js smooth scroll 
 	js auto-update copyright date in footer
