@@ -35,21 +35,66 @@ $(".left").click(function(){
   $("#myCarousel").carousel("prev");
 });
 
-// calculate general consult estimate, assuming 10 hours per room
-$(document).ready(function(){
-	$(".checkout").on("keyup", ".quantity", function(){
-		var price = +$(".price").data("price");
-		var quantity = +$(this).val();
-		$("#total").text("$" + price * quantity * 10);
-	})
-})
 
-// calculate room refresh estimate, assuming 30 hours per room
-$(document).ready(functionTwo(){
-	$(".checkout2").on("keyup", ".quantity2", functionTwo(){
-		var price2 = +$(".price2").data("price2");
-		var quantity2 = +$(this).val();
-		$("#total2").text("$" + price2 * quantity2 *30);
-	})
-})
 
+// contact form //
+
+var fields = {};
+
+document.addEventListener("DOMContentLoaded", function() {
+    fields.firstName = document.getElementById('name');
+    fields.email = document.getElementById('email');
+    fields.question = document.getElementById('question');
+   })
+
+
+   function isNotEmpty(value) {
+    if (value == null || typeof value == 'undefined' ) return false;
+    return (value.length > 0);
+   }
+
+   function isEmail(email) {
+    let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+    return regex.test(String(email).toLowerCase());
+   }
+
+   function fieldValidation(field, validationFunction) {
+    if (field == null) return false;
+   
+    let isFieldValid = validationFunction(field.value)
+    if (!isFieldValid) {
+    field.className = 'placeholderRed';
+    } else {
+    field.className = '';
+    }
+   
+    return isFieldValid;
+   }
+
+   function isValid() {
+    var valid = true;
+    
+    valid &= fieldValidation(fields.name, isNotEmpty);
+    valid &= fieldValidation(fields.email, isEmail);
+    valid &= fieldValidation(fields.question, isNotEmpty);
+   
+    return valid;
+   }
+
+   class User {
+    constructor(name, email, question) {
+    this.name = name;
+    this.email = email;
+    this.question = question;
+    }
+   }
+
+   function sendContact() {
+       if (isValid()) {
+           let usr = new User(name.value, email.value);
+        
+        alert(`${user.name} thanks for contacting us.`)
+        } else {
+            alert("There was an error")
+        }
+   }
