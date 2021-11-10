@@ -34,3 +34,22 @@ $(".item").click(function(){
 $(".left").click(function(){
   $("#myCarousel").carousel("prev");
 });
+
+// calculate general consult estimate, assuming 10 hours per room
+$(document).ready(function(){
+	$(".checkout").on("keyup", ".quantity", function(){
+		var price = +$(".price").data("price");
+		var quantity = +$(this).val();
+		$("#total").text("$" + price * quantity * 10);
+	})
+})
+
+// calculate room refresh estimate, assuming 30 hours per room
+$(document).ready(functionTwo(){
+	$(".checkout2").on("keyup", ".quantity2", functionTwo(){
+		var price2 = +$(".price2").data("price2");
+		var quantity2 = +$(this).val();
+		$("#total2").text("$" + price2 * quantity2 *30);
+	})
+})
+
