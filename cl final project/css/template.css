@@ -77,7 +77,7 @@ a, a:visited, a:hover, a:active {
         text-align: center;
     }
 }
-    
+
 
 
 footer .glyphicon {
@@ -225,4 +225,20 @@ footer p {
 #sm img {
     width: 25px;
     height: auto;
+}
+
+#calc.checkout {
+    text-align: center;
+}
+
+#calc {
+    border: 1px solid #2C3842;
+}
+
+#estimates {
+    background-color: #2C3842;
+    margin-top: 0px;
+    color: #BFCDCB;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
