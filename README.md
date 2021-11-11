@@ -8,7 +8,7 @@ Project requirements:
 	More than 5 github commits
 	readme
 	css feature: hamburger
-	js feature: contact us form (pending, works but does not recognize accurate entry)
+	js feature: contact us form
 
 	
   additional features:
