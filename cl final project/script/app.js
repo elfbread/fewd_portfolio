@@ -36,7 +36,6 @@ $(".left").click(function(){
 });
 
 
-
 // contact form //
 
 var fields = {};
