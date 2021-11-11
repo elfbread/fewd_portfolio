@@ -91,9 +91,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
    function sendContact() {
        if (isValid()) {
-           let usr = new User(name.value, email.value);
+           let usr = new User(this.name, this.email);
         
-        alert(`${user.name} thanks for contacting us.`)
+        alert("Thanks for contacting us.")
         } else {
             alert("There was an error")
         }
