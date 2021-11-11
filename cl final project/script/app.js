@@ -42,7 +42,7 @@ var fields = {};
 
 document.addEventListener("DOMContentLoaded", function() {
     fields.firstName = document.getElementById('name');
-    fields.email = document.getElementById('email');
+    fields.email = document.getElementById('email2');
     fields.question = document.getElementById('question');
    })
 
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
    function isValid() {
     var valid = true;
     
-    valid &= fieldValidation(fields.name, isNotEmpty);
+    valid &= fieldValidation(fields.firstName, isNotEmpty);
     valid &= fieldValidation(fields.email, isEmail);
     valid &= fieldValidation(fields.question, isNotEmpty);
    
