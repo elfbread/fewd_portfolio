@@ -14,7 +14,7 @@ Project requirements:
   additional features:
 	
 	bootstrap for layout/functionality (email verification)
-	js calculator (pending, formatting finished, no js)
+	js calculator (pending)
 	js carousel
 	js smooth scroll 
 	js auto-update copyright date in footer
