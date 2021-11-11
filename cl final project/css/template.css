@@ -227,18 +227,23 @@ footer p {
     height: auto;
 }
 
-#calc.checkout {
-    text-align: center;
-}
-
-#calc {
-    border: 1px solid #2C3842;
+#calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #estimates {
-    background-color: #2C3842;
-    margin-top: 0px;
-    color: #BFCDCB;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 15px;
+    justify-content: center;
 }
+
+#costhidden {
+    color:#5A6E6F;
+}
+
+.panel-footer a:hover, a:active, a:visited {
+    color:#5A6E6F;
+ 
+}
+
