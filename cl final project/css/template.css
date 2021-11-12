@@ -46,29 +46,25 @@ a, a:visited, a:hover, a:active {
     font-size: 200px;
 }
 
+
 @media screen and (max-width: 314px){
-    #portfolio img {
+    /* #portfolio img {
         max-height: 50%;
-    }
+    } */
     .col-sm-4 {
         text-align: center;
         margin: 25px 0;
-    }
-    
-    img {
-        filter: grayscale(100%)
     }
 
     #contact {
         text-align: center;
     }
+
 
 }
 
 @media screen and (max-width: 768px) {
-    #portfolio img {
-        max-height: 50%;
-    }
+
     .col-sm-4 {
         text-align: center;
         margin: 25px 0;
@@ -76,6 +72,10 @@ a, a:visited, a:hover, a:active {
     #contact {
         text-align: center;
     }
+    #jordan {
+        display: none;
+    }
+
 }
 
 
