@@ -4,7 +4,7 @@ This project was created to fufill the final project requirements for Front End 
 
 Project requirements:
 
-	2 media queries  (alignment changes in portfolio section), jordan headshot (disappears), navigation menu compacts to hamburger)
+	2 media queries  (alignment changes in portfolio section and photos become grayscale, jordan headshot disappeares, navigation menu compacts to hamburger)
 	More than 5 github commits
 	readme
 	css feature: hamburger
@@ -14,7 +14,6 @@ Project requirements:
   additional features:
 	
 	bootstrap for layout/functionality (email verification)
-	js calculator (pending)
 	js carousel
 	js smooth scroll 
 	js auto-update copyright date in footer
