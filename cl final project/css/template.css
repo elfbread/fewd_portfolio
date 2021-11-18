@@ -50,7 +50,7 @@ a, a:visited, a:hover, a:active {
     width: 100%;
 }
 
-@media screen and (max-width: 314px){
+@media screen and (min-width: 314px){
 
     .col-sm-4 {
         text-align: center;
@@ -63,7 +63,7 @@ a, a:visited, a:hover, a:active {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .col-sm-4 {
         text-align: center;
@@ -76,9 +76,7 @@ a, a:visited, a:hover, a:active {
         display: none;
     }
 
-    img {
-       filter: grayscale(100); 
-    }
+
 
 }
 
