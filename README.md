@@ -1,6 +1,8 @@
 # fewd_portfolio
 
-This project was created to fufill the final project requirements for Front End Web Development with Code Louisville. The website is a business page for my friend's fictional interior design business. The webpage utilizes Bootstrap for layout and includes multiple JavaScript elements. Main HTML is index.html file.
+This project was created to fufill the final project requirements for Front End Web Development with Code Louisville. The website is a business page for my friend's fictional interior design business. The webpage utilizes Bootstrap for layout and includes multiple JavaScript elements. 
+
+All files are in CL project folder. Main HTML is index.html file.
 
 
 Project requirements:
