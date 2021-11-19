@@ -1,10 +1,11 @@
 # fewd_portfolio
 
-This project was created to fufill the final project requirements for Front End Web Development with Code Louisville. The website is a business page for my friend's fictional interior design business. The webpage utilizes Bootstrap for layout and includes multiple JavaScript elements.
+This project was created to fufill the final project requirements for Front End Web Development with Code Louisville. The website is a business page for my friend's fictional interior design business. The webpage utilizes Bootstrap for layout and includes multiple JavaScript elements. Main HTML is index.html file.
+
 
 Project requirements:
 
-	2 media queries  (alignment changes in portfolio section and photos become grayscale, jordan headshot disappeares, navigation menu compacts to hamburger)
+	2 media queries  with mobile first approach (alignment changes visible in portfolio section)
 	More than 5 github commits
 	readme
 	css feature: hamburger
